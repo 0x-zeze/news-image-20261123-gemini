@@ -37,7 +37,7 @@ REGION_COLORS = {
 TIMELINE = [
     ("00:49", "UK NHS launches AI breast-cancer trial"),
     ("02:45", "S. Korea vows stability as KOSPI falls 5%"),
-    ("05:15", "COP31 closes in Antalya with no deal"),
+    ("06:43", "China sets 2030 elderly & childcare goals"),
     ("11:34", "Kyiv video confirms Benghazi ship strike"),
     ("15:09", "FIFA picks 2031 Americas & 2035 UK"),
     ("15:29", "Nvidia reinstates Huang; shares +31%"),
@@ -50,134 +50,134 @@ TIMELINE = [
 STORIES = [
     # EUROPE (11)
     (1, "Europe", "Ukraine hits Perm & Novoshakhtinsk refineries",
-     "Drone barrage across western Russia kills 1 in Perm.", "REPORTED", "Kyiv Ind.", "Perm", 58.01, 56.25),
+     "Overnight drone barrage kills 1 in Perm region.", "REPORTED", "Moscow Times", "Perm", 58.01, 56.25),
     (2, "Europe", "EU unveils 22nd Russia sanctions package",
-     "Targets Russian sports flags, sponsors & crypto flows.", "CONFIRMED", "Guardian", "Brussels", 50.85, 4.35),
-    (3, "Europe", "Spain Supreme Court grants Puigdemont amnesty",
-     "Closes 2017 Catalan independence case against exile.", "CONFIRMED", "CNN", "Madrid", 40.42, -3.70),
+     "Targets Russian sports flags & crypto flows.", "CONFIRMED", "Al Jazeera", "Brussels", 50.85, 4.35),
+    (3, "Europe", "Spain Supreme Court shelves Puigdemont case",
+     "Removes last hurdle for exiled Catalan leader.", "CONFIRMED", "CNN", "Madrid", 40.42, -3.70),
     (4, "Europe", "Belgium austerity strike grounds flights",
-     "Walkout over 2027 cuts halts transit; tear gas used.", "CONFIRMED", "France 24", "Brussels", 50.85, 4.35),
+     "Walkout over 2027 cuts halts transit; tear gas.", "CONFIRMED", "France 24", "Brussels", 50.85, 4.35),
     (5, "Europe", "UK sanctions 5 Myanmar junta chiefs",
-     "Recognises Rohingya genocide as 14 states back ICJ.", "CONFIRMED", "BBC", "London", 51.51, -0.13),
+     "Recognises Rohingya genocide as 14 back ICJ.", "CONFIRMED", "BBC", "London", 51.51, -0.13),
     (6, "Europe", "NATO vows space defence on Russia report",
-     "Rutte responds to nuclear anti-satellite weapon claim.", "CONFIRMED", "France 24", "Berlin", 52.52, 13.40),
+     "Rutte responds to nuclear anti-satellite claim.", "CONFIRMED", "France 24", "Berlin", 52.52, 13.40),
     (7, "Europe", "Email bomb hoaxes hit German & Danish schools",
-     "Hundreds of campuses threatened; police keep open.", "CONFIRMED", "Reuters", "Copenhagen", 55.68, 12.57),
+     "Hundreds of schools hit; police keep open.", "CONFIRMED", "Reuters", "Copenhagen", 55.68, 12.57),
     (8, "Europe", "Finland summons Russian envoy over breach",
-     "Protests suspected helicopter incursion & sea strike.", "CONFIRMED", "France 24", "Helsinki", 60.17, 24.94),
+     "Protests suspected helicopter & Baltic acts.", "CONFIRMED", "France 24", "Helsinki", 60.17, 24.94),
     (9, "Europe", "Armenia draft charter drops Karabakh claim",
-     "PM Pashinyan calls overhaul key to Azerbaijan peace.", "CONFIRMED", "SCMP", "Yerevan", 40.18, 44.51),
+     "Pashinyan calls reform key to Azerbaijan peace.", "CONFIRMED", "SCMP", "Yerevan", 40.18, 44.51),
     (10, "Europe", "Gisèle Pelicot to sue over nude promo photos",
-     "Publisher apologises after abuse-case images sent.", "CONFIRMED", "BBC", "Paris", 48.86, 2.35),
+     "Publisher apologises after abuse photos sent.", "CONFIRMED", "BBC", "Paris", 48.86, 2.35),
     (11, "Europe", "Leaked files show 1,000+ Russian war suicides",
-     "Analysis of 11m death records tallies troop deaths.", "REPORTED", "Guardian", "Moscow", 55.76, 37.62),
+     "Analysis of 11m death records tallies toll.", "REPORTED", "Guardian", "Moscow", 55.76, 37.62),
 
     # MIDDLE EAST (8)
     (12, "Middle East", "Three tankers explode in Strait of Hormuz",
-     "IRGC says vessels hit mines despite US air cover.", "REPORTED", "MEE", "Strait of Hormuz", 26.57, 56.25),
+     "IRGC says vessels hit mines despite air cover.", "REPORTED", "MEE", "Strait of Hormuz", 26.57, 56.25),
     (13, "Middle East", "Iran flogs singer Parastoo Ahmadi 74 times",
-     "Four staff also lashed in Qom over hijab-free show.", "REPORTED", "BBC", "Qom", 34.64, 50.88),
+     "Lawyers report Qom lashes for hijab-free show.", "REPORTED", "BBC", "Qom", 34.64, 50.88),
     (14, "Middle East", "US sanctions Iranian 'shadow banking' web",
-     "Treasury targets 24+ firms in UAE, Turkey & HK.", "CONFIRMED", "Al Jazeera", "Dubai", 25.20, 55.27),
+     "Treasury targets 24+ firms in UAE, Turkey, HK.", "CONFIRMED", "Al Jazeera", "Dubai", 25.20, 55.27),
     (15, "Middle East", "Iran courts order US to pay $290bn damages",
-     "Judiciary also files suits against Gulf Arab states.", "CONFIRMED", "France 24", "Tehran", 35.69, 51.39),
+     "Judiciary also files suits against Gulf states.", "CONFIRMED", "France 24", "Tehran", 35.69, 51.39),
     (16, "Middle East", "Gaza 'toxic wasteland'; Israeli fire kills 4",
-     "Oxfam finds 99% contamination; UN flags 77-yr loss.", "CONFIRMED", "BBC/UN", "Gaza City", 31.50, 34.47),
+     "Oxfam finds 99% tainted; UN notes 77-yr loss.", "CONFIRMED", "BBC/UN", "Gaza City", 31.50, 34.47),
     (17, "Middle East", "Qatar PM pushes to revive US-Iran talks",
-     "Warns Gulf cannot afford escalation after Rubio meet.", "CONFIRMED", "MEE", "Doha", 25.29, 51.53),
+     "Warns Gulf cannot risk war after Rubio meet.", "CONFIRMED", "MEE", "Doha", 25.29, 51.53),
     (18, "Middle East", "Israeli raid in Syria's Koya torches homes",
-     "Families flee gunfire; US weighs Syria trainers.", "REPORTED", "Al Jazeera", "Koya", 32.73, 35.79),
-    (19, "Middle East", "Turkey says PKK quit 14 more N. Iraq bases",
-     "Intelligence cites ongoing disarmament withdrawals.", "REPORTED", "AFP", "Erbil", 36.19, 44.01),
+     "Families flee gunfire; US weighs Syria roles.", "REPORTED", "Al Jazeera", "Koya", 32.73, 35.79),
+    (19, "Middle East", "Turkey reports PKK quit 14 more N. Iraq bases",
+     "State media cites MIT on disarmament pullout.", "REPORTED", "AFP", "Erbil", 36.19, 44.01),
 
     # ASIA-PACIFIC (11)
-    (20, "Asia-Pacific", "Indonesia factory fire kills 24; ~30 missing",
-     "DNA gathered after Cikande confectionery plant blaze.", "CONFIRMED", "Guardian", "Cikande", -6.21, 106.36),
+    (20, "Asia-Pacific", "Indonesia confirms 24 dead in factory blaze",
+     "Toll jumps from 3; ~30 missing in Cikande.", "CONFIRMED", "Guardian", "Cikande", -6.21, 106.36),
     (21, "Asia-Pacific", "India pledges $1.6bn to Nepal in ties reset",
-     "Offers flood aid, port access & rail on PM Shah trip.", "CONFIRMED", "BBC", "New Delhi", 28.61, 77.21),
+     "Offers flood aid, port access & rail to Shah.", "CONFIRMED", "BBC", "New Delhi", 28.61, 77.21),
     (22, "Asia-Pacific", "S. Korea vows stability after 5% KOSPI drop",
-     "Finance chief flags chip swings in Asian tech rout.", "CONFIRMED", "CNA", "Seoul", 37.57, 126.98),
+     "Finance chief flags chip swings in tech rout.", "CONFIRMED", "CNA", "Seoul", 37.57, 126.98),
     (23, "Asia-Pacific", "Tajikistan begins withdrawal from ICC",
-     "Becomes fourth state to move to exit after US push.", "CONFIRMED", "Reuters", "Dushanbe", 38.56, 68.77),
+     "Fourth state to move to exit after US push.", "CONFIRMED", "Reuters", "Dushanbe", 38.56, 68.77),
     (24, "Asia-Pacific", "Indonesia's Prabowo names 2 VP nominees",
-     "Picks Sulaiman & Sugiono to replace Gibran Dec 11.", "CONFIRMED", "CNA", "Jakarta", -6.21, 106.85),
+     "Picks Sulaiman & Sugiono ahead of Dec 11 vote.", "CONFIRMED", "CNA", "Jakarta", -6.21, 106.85),
     (25, "Asia-Pacific", "Bangladesh vows Hasina arrest; 45 hurt",
-     "Awami League & BNP faction fights rock 2 districts.", "CONFIRMED", "CNA", "Dhaka", 23.81, 90.41),
+     "Awami League & BNP fights rock 2 districts.", "CONFIRMED", "CNA", "Dhaka", 23.81, 90.41),
     (26, "Asia-Pacific", "N. Korea's Kim stresses sovereignty in ties",
-     "Outlines foreign policy after Trump summit no-show.", "CONFIRMED", "CNA", "Pyongyang", 39.04, 125.76),
+     "Outlines foreign policy after Trump no-show.", "CONFIRMED", "CNA", "Pyongyang", 39.04, 125.76),
     (27, "Asia-Pacific", "China sets 2030 elderly & childcare goals",
-     "Expands nursing homes; agrees trade group w/ Mexico.", "CONFIRMED", "CNA", "Beijing", 39.90, 116.41),
+     "Expands care homes; agrees trade group w/ Mex.", "CONFIRMED", "CNA", "Beijing", 39.90, 116.41),
     (28, "Asia-Pacific", "India to test all bottled water brands",
-     "Sweeping audit ordered after unsafe Bisleri sample.", "CONFIRMED", "CNA", "Mumbai", 19.08, 72.88),
+     "Sweeping audit after unsafe Bisleri sample.", "CONFIRMED", "CNA", "Mumbai", 19.08, 72.88),
     (29, "Asia-Pacific", "Thai court halves MP's royal-insult term",
-     "Appellate judges cut Rukchanok Srinork's sentence.", "CONFIRMED", "CNA", "Bangkok", 13.76, 100.50),
+     "Appellate judges cut Rukchanok Srinork jail.", "CONFIRMED", "CNA", "Bangkok", 13.76, 100.50),
     (30, "Asia-Pacific", "Australia flags AI as foreign-policy threat",
-     "FM Wong warns parliament of foreign interference.", "CONFIRMED", "SCMP", "Canberra", -35.28, 149.13),
+     "FM Wong warns of overseas election meddling.", "CONFIRMED", "SCMP", "Canberra", -35.28, 149.13),
 
     # AMERICAS (10)
     (31, "Americas", "Nvidia reinstates Jensen Huang; stock +31%",
-     "Board reverses exit after Trump calls; Dems probe.", "CONFIRMED", "BBC", "Santa Clara", 37.35, -121.95),
+     "Board reverses exit after Trump; Dems probe.", "CONFIRMED", "CBS/BBC", "Santa Clara", 37.35, -121.95),
     (32, "Americas", "US to blacklist Asian AI firm Megaspeed",
-     "Accused of funneling chips to China in Nvidia case.", "REPORTED", "BBC", "Washington", 38.91, -77.04),
+     "Accused of funneling chips to China in affair.", "REPORTED", "BBC", "Washington", 38.91, -77.04),
     (33, "Americas", "Democrats flip 47+ US House seats",
-     "Widest margin in 50 yrs; new Green Card bill filed.", "CONFIRMED", "NPR", "Washington", 38.91, -77.04),
+     "Widest margin in 50 yrs; Green Card bill out.", "CONFIRMED", "NPR", "Washington", 38.91, -77.04),
     (34, "Americas", "Virginia & Oregon sue SpaceX over Grok",
-     "Lawsuits target chatbot's 'spicy mode' CSAM risks.", "CONFIRMED", "Al Jazeera", "Richmond", 37.54, -77.44),
+     "Lawsuits target chatbot 'spicy mode' CSAM.", "CONFIRMED", "Al Jazeera", "Richmond", 37.54, -77.44),
     (35, "Americas", "US DoJ admits wrongly deporting citizen",
-     "Court filing confirms citizen was sent to Mexico.", "CONFIRMED", "Guardian", "Austin", 30.27, -97.74),
+     "Filing confirms US citizen was sent to Mexico.", "CONFIRMED", "Guardian", "Austin", 30.27, -97.74),
     (36, "Americas", "Outrage over ICE arrest at Seattle airport",
-     "Mexican father & daughter held; O'Hare brief stop.", "CONFIRMED", "BBC", "Seattle", 47.61, -122.33),
+     "Mexican father & daughter held; O'Hare delay.", "CONFIRMED", "BBC", "Seattle", 47.61, -122.33),
     (37, "Americas", "Trump delays toxic Army blast in Iowa",
-     "Postpones 5-tonne lead azide disposal after outcry.", "CONFIRMED", "Al Jazeera", "Des Moines", 41.59, -93.62),
+     "Postpones 5t lead azide disposal after outcry.", "CONFIRMED", "Al Jazeera", "Des Moines", 41.59, -93.62),
     (38, "Americas", "Gunmen ambush Mexican troops; 8 arrested",
-     "Attack follows weekend capture of 'El Chapo Isidro'.", "CONFIRMED", "BBC", "Mexico City", 19.43, -99.13),
+     "Attack follows weekend capture of cartel boss.", "CONFIRMED", "BBC", "Mexico City", 19.43, -99.13),
     (39, "Americas", "Drone strike hits Colombian police base",
-     "3 hurt incl. infant; Bogotá asks X to suspend Petro.", "CONFIRMED", "Al Jazeera", "Bogotá", 4.71, -74.07),
+     "3 hurt incl. infant; Bogotá asks X to ban Petro.", "CONFIRMED", "Al Jazeera", "Bogotá", 4.71, -74.07),
     (40, "Americas", "Pneumonia hits Bolsonaro; Brazil trims GDP",
-     "Ex-leader in ICU; 2027 growth forecast cut to 1.8%.", "CONFIRMED", "MercoPress", "Brasília", -15.79, -47.88),
+     "Ex-leader in ICU; 2027 growth cut to 1.8%.", "CONFIRMED", "MercoPress", "Brasília", -15.79, -47.88),
 
     # AFRICA (6)
     (41, "Africa", "Kyiv confirms Benghazi Russian warship sink",
-     "Releases sea-drone video; Libya & UNSMIL urge probe.", "CONFIRMED", "BBC/UN", "Benghazi", 32.12, 20.09),
+     "Zelensky/SBU claim strike; Libya & UN seek probe.", "CONFIRMED", "NPR/UN", "Benghazi", 32.12, 20.09),
     (42, "Africa", "Drone strikes hit homes & UN site in Sudan",
-     "UN condemns Khartoum hits with staff in compound.", "CONFIRMED", "Africanews", "Khartoum", 15.50, 32.56),
+     "UN condemns Khartoum hits with staff inside.", "CONFIRMED", "Africanews", "Khartoum", 15.50, 32.56),
     (43, "Africa", "Ituri clashes trap DR Congo Ebola teams",
-     "WHO says fighting halted care 24h+; DRC-Kenya mend.", "CONFIRMED", "UN News", "Bunia", 1.56, 30.25),
+     "WHO says fighting halted response 24h+.", "CONFIRMED", "UN News", "Bunia", 1.56, 30.25),
     (44, "Africa", "Zambian opposition chief indicted for treason",
-     "Prosecutors charge Mundubile over alleged coup plot.", "CONFIRMED", "Africanews", "Lusaka", -15.39, 28.32),
+     "Prosecutors charge Mundubile over coup plot.", "CONFIRMED", "Africanews", "Lusaka", -15.39, 28.32),
     (45, "Africa", "Rescuers search after Nigeria boat tragedy",
-     "Crews hunt survivors; Tinubu admits power/water cuts.", "CONFIRMED", "BBC", "Abuja", 9.06, 7.49),
+     "Crews hunt survivors; Tinubu notes outages.", "CONFIRMED", "BBC", "Abuja", 9.06, 7.49),
     (46, "Africa", "Zimbabwean preacher Uebert Angel arrested",
-     "British-Zimbabwean leader held on sex-assault claims.", "CONFIRMED", "BBC", "Harare", -17.83, 31.05),
+     "British-Zimbabwean leader held on assault claim.", "CONFIRMED", "BBC", "Harare", -17.83, 31.05),
 
     # GLOBAL / CLIMATE / HEALTH / SCIENCE (4)
-    (47, "Global/Climate/Health/Science", "COP31 climate summit collapses with no deal",
-     "Longest UN talks fail in Antalya on fossil fuels & finance.", "CONFIRMED", "BBC", "Antalya", 36.90, 30.71),
+    (47, "Global/Climate/Health/Science", "Plant-based lunches could cut 15.4m t CO2/yr",
+     "Australia study projects $611 household savings.", "CONFIRMED", "Guardian", "Sydney", -33.87, 151.21),
     (48, "Global/Climate/Health/Science", "UN chief urges global AI safety pact in 1 yr",
-     "Guterres warns in Barbados of 'biggest transfer of power'.", "CONFIRMED", "France 24", "Bridgetown", 13.10, -59.61),
+     "Guterres warns in Barbados of power shift.", "CONFIRMED", "France 24", "Bridgetown", 13.10, -59.61),
     (49, "Global/Climate/Health/Science", "UK NHS launches largest AI cancer trial",
-     "Tests artificial intelligence in earlier breast screening.", "CONFIRMED", "BBC", "London", 51.51, -0.13),
+     "Tests artificial intelligence in breast checks.", "CONFIRMED", "BBC", "London", 51.51, -0.13),
     (50, "Global/Climate/Health/Science", "Giant exoplanet HIP 88962 b spotted in Chile",
-     "5x Jupiter world around tiny star challenges formation models.", "CONFIRMED", "SCMP", "Atacama", -24.63, -70.40),
+     "5x Jupiter world around tiny star defies models.", "CONFIRMED", "SCMP", "Atacama", -24.63, -70.40),
 
     # SPORT / CULTURE (4)
     (51, "Sport/Culture", "FIFA picks 2031 Americas & 2035 UK WWC",
-     "US/Mex/Jam/CR host 2031; UK gets first WWC since '66.", "CONFIRMED", "AFP/BBC", "Zurich", 47.37, 8.54),
-    (52, "Sport/Culture", "Simeone sets La Liga mark with 345th win",
-     "Atlético Madrid boss breaks Spanish league record.", "CONFIRMED", "BBC Sport", "Madrid", 40.42, -3.70),
+     "US/Mex/Jam/CR host 2031; UK first since 1966.", "CONFIRMED", "AFP/BBC", "Zurich", 47.37, 8.54),
+    (52, "Sport/Culture", "Marco Penge wins 4-man PGA Tour play-off",
+     "Claims Monday RSM Classic in Georgia & 2027 card.", "CONFIRMED", "BBC Sport", "Sea Island", 31.18, -81.35),
     (53, "Sport/Culture", "Don Toliver delays shows over arena gas",
-     "Police probe Manchester irritant that sickened 80+.", "CONFIRMED", "BBC", "Manchester", 53.48, -2.24),
-    (54, "Sport/Culture", "Italian jeweller Paolo Bulgari dies at 89",
-     "Family hails longtime chairman as 'greatest of time'.", "CONFIRMED", "BBC", "Rome", 41.90, 12.50),
+     "Police probe Manchester irritant sickening 80+.", "CONFIRMED", "BBC", "Manchester", 53.48, -2.24),
+    (54, "Sport/Culture", "Barbados town signs reparative pact w/ Bristol",
+     "Speightstown 3-yr deal addresses slave-trade ties.", "CONFIRMED", "Guardian", "Bristol", 51.45, -2.59),
 ]
 
 DATE_CHECK = [
     ("19 Nov", "ICJ rules Myanmar committed Rohingya genocide (BBC)"),
     ("21 Nov", "Three Russian cruise missiles land in Poland (BBC/NPR)"),
     ("21 Nov", "Zanzibar fire engulfs 6 hotels, 180 evacuated (Africanews)"),
+    ("22 Nov", "COP31 talks in Antalya collapse with no deal (BBC/AFP)"),
     ("22 Nov", "S. Korea education chief quits over AI exam scandal (AFP)"),
-    ("22 Nov", "Alcaraz wins ATP Finals; Márquez 8th MotoGP title (AP)"),
-    ("22 Nov", "Cartel boss 'El Chapo Isidro' captured in Mexico (BBC)"),
+    ("22 Nov", "Alcaraz ATP Finals; Simeone 345th win; Bulgari dies (BBC)"),
 ]
 
 DAY_IN_NUMBERS = [
@@ -186,7 +186,7 @@ DAY_IN_NUMBERS = [
     ("24", "Dead in Indonesia blaze"),
     ("99%", "Gaza area contaminated"),
     ("74", "Lashes given in Qom"),
-    ("345", "Simeone La Liga wins"),
+    ("$1.6bn", "India aid pledge to Nepal"),
 ]
 
 
@@ -347,7 +347,7 @@ def place_badges(anchors: list[tuple[int, float, float]], map_x: int, map_y: int
 
 def draw_story_block(draw, auditor, story, x0: int, y0: int, col_w: int,
                      max_y: int, f_num, f_hl, f_body, f_meta, group: str,
-                     hl_step: int = 12, body_step: int = 10, gap: int = 4) -> int:
+                     hl_step: int = 12, body_step: int = 11, gap: int = 5) -> int:
     """Draw a story block with atomic non-breaking [STATUS · Source] tag."""
     num, region, hl, detail, status, source, city, lat, lon = story
     col = REGION_COLORS[region]
@@ -373,7 +373,6 @@ def draw_story_block(draw, auditor, story, x0: int, y0: int, col_w: int,
         )
         y += hl_step
 
-    # Render detail wrapped cleanly, then append atomic [STATUS · Source] tag
     tag = f"[{status} · {source}]"
     tag_w = text_width(f_meta, tag)
     tag_col = "#1D5B2E" if status == "CONFIRMED" else "#8A4A08"
@@ -389,7 +388,7 @@ def draw_story_block(draw, auditor, story, x0: int, y0: int, col_w: int,
                     box=(x0, y - 1, x0 + col_w, max_y), group=group
                 )
                 auditor.draw_text(
-                    draw, (x0 + lw, y), tag, font=f_meta, fill=tag_col,
+                    draw, (x0 + lw, y + 0.5), tag, font=f_meta, fill=tag_col,
                     box=(x0, y - 1, x0 + col_w, max_y), group=group
                 )
                 y += body_step
@@ -432,7 +431,7 @@ def main():
     draw = ImageDraw.Draw(img)
     auditor = GeometryAuditor()
 
-    # Fonts
+    # Fonts (maximised within 1024x1024 budget for 54 stories + map + timeline + DATE CHECK)
     f_title = load_font("DejaVuSerif-Bold.ttf", 23)
     f_date = load_font("DejaVuSerif-Bold.ttf", 12)
     f_sub = load_font("DejaVuSans.ttf", 8)
@@ -442,8 +441,8 @@ def main():
     f_pin = load_font("DejaVuSans-Bold.ttf", 7)
     f_num = load_font("DejaVuSans-Bold.ttf", 7)
     f_hl = load_font("DejaVuSans-Bold.ttf", 9)
-    f_body = load_font("DejaVuSans.ttf", 8)
-    f_meta = load_font("DejaVuSans-Bold.ttf", 7)
+    f_body = load_font("DejaVuSans.ttf", 9)
+    f_meta = load_font("DejaVuSans-Bold.ttf", 8)
     f_dc = load_font("DejaVuSans.ttf", 8)
     f_leg = load_font("DejaVuSans.ttf", 7)
     f_foot = load_font("DejaVuSans-Bold.ttf", 8)
@@ -521,6 +520,7 @@ def main():
         anchors.append((num, ax, ay))
         story_by_num[num] = (s, ax, ay)
 
+    assert set(story_by_num.keys()) == set(range(1, len(STORIES) + 1)), "Pin numbers mismatch"
     badge_r = 5.4
     badge_pos = place_badges(anchors, map_x, map_y, map_w, map_h, r=badge_r)
 
@@ -578,9 +578,9 @@ def main():
     )
     for s in global_stories:
         y = draw_story_block(
-            draw, auditor, s, rp_x, y, rp_w, 232,
+            draw, auditor, s, rp_x, y, rp_w, 233,
             f_num, f_hl, f_body, f_meta, "rp_global",
-            hl_step=12, body_step=10, gap=5
+            hl_step=12, body_step=11, gap=5
         )
         rendered_nums.add(s[0])
 
@@ -653,7 +653,7 @@ def main():
         for si, (reg_key, reg_title) in enumerate(sections):
             reg_stories = [s for s in STORIES if s[1] == reg_key]
             if si > 0:
-                cy += 6
+                cy += 5
             cy = draw_section_header(
                 draw, auditor, reg_title, len(reg_stories), REGION_COLORS[reg_key],
                 cx, cy, col_w, f"col{ci}_hdr_{si}"
@@ -662,7 +662,7 @@ def main():
                 cy = draw_story_block(
                     draw, auditor, s, cx, cy, col_w, grid_bot,
                     f_num, f_hl, f_body, f_meta, f"col{ci}",
-                    hl_step=12, body_step=10, gap=7
+                    hl_step=12, body_step=11, gap=5
                 )
                 rendered_nums.add(s[0])
         col_ends.append(cy)
@@ -670,10 +670,10 @@ def main():
             auditor.violations.append(f"COL{ci}-OVERFLOW: cy={cy} > {grid_bot}")
 
     # DAY IN NUMBERS editorial box at bottom of Col 2 (balances the 3 columns cleanly)
-    box_y0 = col_ends[1] + 6
+    box_y0 = col_ends[1] + 5
     box_y1 = grid_bot - 2
     cx = col_xs[1]
-    if box_y1 - box_y0 >= 86:
+    if box_y1 - box_y0 >= 76:
         draw.rectangle([cx, box_y0, cx + col_w, box_y1], fill=CARD_BG, outline=RULE_DARK, width=1)
         draw.rectangle([cx, box_y0, cx + col_w, box_y0 + 15], fill=RULE_DARK)
         auditor.draw_text(
@@ -682,8 +682,7 @@ def main():
             font=f_meta, fill="#F7F3EA",
             box=(cx, box_y0, cx + col_w, box_y0 + 15), group="nums_hdr", anchor="lm"
         )
-        # 3x2 metric grid inside the card
-        inner_top = box_y0 + 20
+        inner_top = box_y0 + 19
         cell_w = col_w / 3
         cell_h = (box_y1 - inner_top - 4) / 2
         for idx, (val, lbl) in enumerate(DAY_IN_NUMBERS):
